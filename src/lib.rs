@@ -441,6 +441,18 @@ pub enum Key {
   NUMMULT = keys::MULTIPLY,
   NUMDIV = keys::DIVIDE,
   NUMDEC = keys::DECIMAL,
+
+  NUM0 = keys::NUMPAD0,
+  NUM1 = keys::NUMPAD1,
+  NUM2 = keys::NUMPAD2,
+  NUM3 = keys::NUMPAD3,
+  NUM4 = keys::NUMPAD4,
+  NUM5 = keys::NUMPAD5,
+  NUM6 = keys::NUMPAD6,
+  NUM7 = keys::NUMPAD7,
+  NUM8 = keys::NUMPAD8,
+  NUM9 = keys::NUMPAD9,
+
   #[serde(rename = "0")]
   KEY_0 = keys::KEY_0,
   #[serde(rename = "1")]
